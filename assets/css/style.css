@@ -1,0 +1,95 @@
+*{box-sizing: border-box;}
+body{background: url('../images/bee.jpg');
+background-size:100%;
+
+}
+main{
+	width: 800px;
+	height: 500px;
+	border: solid 1px black;
+}
+.panel{
+	width: 75%;
+	margin: 0 auto;
+	margin-top: 20px;
+	opacity: .97;
+}
+.start{
+	color: white;
+	background-color: green;
+	height: 30px;
+	width: 150px;
+	margin: 0 auto;
+	border: solid 3px rgb(14, 13, 3);
+	text-align: center;
+	padding: 2px;
+	margin-bottom: 10px;
+}
+
+.instructions, .timer{
+	width: 50%;
+	margin: 0 auto;
+	border: solid 1px black;
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+.timer{
+	font-weight: 600;
+	font-size: 20px
+}
+
+.triviaBody, .submit{
+	display: none;
+}
+h3{
+	vertical-align: middle;
+	text-align: center;
+}
+.buttons{
+		margin: 0 auto;
+		text-align: center;
+
+}
+
+label{
+	display: inline-block;
+	border: solid 1px black;
+	background: #EAECEE;
+	padding: 5px 10px;
+	border-radius: 5px;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+
+.submit{
+	color: white;
+	background-color: rgb(221, 92, 17);
+	height: 30px;
+	width: 150px;
+	margin: 0 auto;
+	border: solid 3px rgba(250, 234, 18, 0.918);
+	text-align: center;
+	padding: 2px;
+}
+
+.footer{
+	text-align: center;
+}
+
+.start:hover {
+	border: solid 3px green;
+	background-color:  rgba(250, 234, 18, 0.918);
+	cursor: pointer;
+}
+
+.submit:hover {
+	background-color:  rgba(250, 234, 18, 0.918);
+	border: solid 3px rgb(221, 92, 17);
+	cursor: pointer;
+}
+
+label:hover{
+	cursor:pointer;
+
+}
